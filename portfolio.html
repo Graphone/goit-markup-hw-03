@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
+        <!-- navigation -->
         <nav>
           <a href="./index.html">WebStudio</a>
-          <ul>
-            <li>
+          <ul class="nav-list">
+            <li class="list-item">
               <a href="./index.html">Студия</a>
             </li>
-            <li>
-              <a href="./portfolio.html">Портфолио</a>
+            <li class="list-item">
+              <a href="./portfolio.html" class="active">Портфолио</a>
             </li>
-            <li>
+            <li class="list-item">
               <a href="">Контакты</a>
             </li>
           </ul>
@@ -40,19 +47,19 @@
           <h2>Фильтры поиска</h2>
           <ul class="filters">
             <li>
-              <button type="button">Всё</button>
+              <button type="button" class="filter-button">Всё</button>
             </li>
             <li>
-              <button type="button">Веб-сайты</button>
+              <button type="button" class="filter-button">Веб-сайты</button>
             </li>
             <li>
-              <button type="button">Приложения</button>
+              <button type="button" class="filter-button">Приложения</button>
             </li>
             <li>
-              <button type="button">Дизайн</button>
+              <button type="button" class="filter-button">Дизайн</button>
             </li>
             <li>
-              <button type="button">Маркетинг</button>
+              <button type="button" class="filter-button">Маркетинг</button>
             </li>
           </ul>
         </div>
