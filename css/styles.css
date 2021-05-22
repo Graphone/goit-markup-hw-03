@@ -9,8 +9,9 @@
 :root {
   --accent-color: #2196f3;
   --white-color: #ffffff;
-  --main-font: 'Roboto, sans-serif;';
-  --accent-font: 'Raleway';
+  --color-three: #212121;
+  --main-font: 'Roboto, sans-serif';
+  --accent-font: 'Raleway, sans-serif';
 }
 
 * {
@@ -24,10 +25,34 @@ body {
   color: #757575;
 }
 
-.heading {
+.heading-one {
   font-weight: 700;
   font-size: 16px;
-  color: #212121;
+  color: var(--color-three);
+}
+
+.heading-two {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-three);
+}
+
+.heading-three {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-three);
+}
+
+.heading-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-three);
+}
+
+.heading-product {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-three);
 }
 
 .hero {
@@ -37,6 +62,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: var(--white-color);
+  margin: 200px 452px 280px 452px;
 }
 
 ul {
@@ -78,6 +104,14 @@ a {
 .active {
   color: var(--accent-color);
 }
+
+.main-title {
+  font-family: var(--accent-font);
+  font-size: 26px;
+  /* font-weight: 700px; */
+  color: var(--color-three);
+}
+
 /* MAIN STYLES */
 .section-one {
   background: #2f303a;
@@ -96,13 +130,21 @@ a {
 }
 
 .filter-button {
-  background: #F5F4FA
+  background: #f5f4fa;
   color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
 }
 
-.pretty {
-  color: green;
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+
+.list-item {
+  color: var(--color-three);
+  font-weight: 500;
+  font-size: 14px;
 }
