@@ -134,7 +134,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.title-product {
+.product-title {
   font-weight: 700;
   font-size: 18px;
   color: var(--color-three);
@@ -205,5 +205,11 @@ a {
 .profession {
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.product-category {
+  font-size: 16px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
