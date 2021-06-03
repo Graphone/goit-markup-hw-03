@@ -79,7 +79,9 @@ a {
 
 /* header */
 
-.header {
+.page-header {
+  border: 1px solid #ececec;
+
   background: var(--white-color);
 }
 
@@ -225,7 +227,6 @@ a {
   justify-content: center;
   margin: 0px;
   padding-top: 94px;
-  padding-bottom: 94px;
 
   font-size: 14px;
   line-height: 1.7;
@@ -249,6 +250,7 @@ a {
 
 .about-title {
   margin-bottom: 50px;
+  padding-top: 94px;
 
   font-weight: 700;
   font-size: 36px;
@@ -419,4 +421,8 @@ a {
 
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+
+.card-image {
+  display: block;
 }
