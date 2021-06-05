@@ -69,7 +69,7 @@ a {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -86,7 +86,7 @@ a {
 }
 
 .header .container {
-  width: 1230px;
+  width: 1200px;
 }
 
 .main-logo {
@@ -167,13 +167,14 @@ a {
 /* hero section */
 
 .hero .container {
-  width: 1230px;
-  height: 600px;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  /* width: 1200px;
+  height: 600px; */
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
+
   text-align: center;
   background: var(--background-color);
 }
@@ -185,7 +186,7 @@ a {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.17;
+  line-height: 1.36;
   text-transform: uppercase;
 }
 
@@ -211,6 +212,11 @@ a {
 
 /* features */
 
+.feature-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .feature-title {
   margin-bottom: 10px;
 
@@ -221,12 +227,16 @@ a {
   text-transform: uppercase;
 }
 
+.feature-description {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0px;
-  padding-top: 94px;
 
   font-size: 14px;
   line-height: 1.7;
@@ -235,7 +245,6 @@ a {
 
 .feature-list .item {
   width: 270px;
-  height: 75px;
 }
 
 .feature-list .item {
@@ -250,7 +259,6 @@ a {
 
 .about-title {
   margin-bottom: 50px;
-  padding-top: 94px;
 
   font-weight: 700;
   font-size: 36px;
@@ -273,6 +281,8 @@ a {
 
 .team {
   /* width: 1600; */
+  padding-top: 94px;
+
   background-color: var(--secondary-bg-color);
 }
 
@@ -290,13 +300,13 @@ a {
   color: var(--font-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .profession {
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -312,6 +322,8 @@ a {
 
 .address-list {
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
   color: var(--white-color);
 }
 
@@ -326,12 +338,10 @@ a {
 /* footer */
 
 .footer {
-  background: var(--background-color);
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background: var(--background-color);
 }
 
 .footer a p {
@@ -350,7 +360,6 @@ a {
 .filters {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -414,6 +423,9 @@ a {
 
 .products {
   padding-bottom: 94px;
+  padding-top: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .product-card {
