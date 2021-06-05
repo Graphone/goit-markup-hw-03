@@ -394,17 +394,26 @@ a {
 
 .product-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
 }
 
-.product-item:not(:nth-last-child(3n)) {
+.product-item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.product-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+/* .product-item:not(:nth-last-child(3n)) {
   margin-left: 30px;
 }
 
 .product-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-}
+} */
 
 .product-title {
   margin-bottom: 8px;
